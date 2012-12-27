@@ -1,0 +1,681 @@
+2012-12-27 00:49:00 Error: [MissingViewException] View file "/Users/nazimjamil/Sites/mexican-wave/app/View/Index/index.ctp" is missing.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:49:08 Error: [MissingViewException] View file "/Users/nazimjamil/Sites/mexican-wave/app/View/Index/index.ctp" is missing.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:49:09 Error: [MissingViewException] View file "/Users/nazimjamil/Sites/mexican-wave/app/View/Index/index.ctp" is missing.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:49:12 Error: [MissingViewException] View file "/Users/nazimjamil/Sites/mexican-wave/app/View/Index/index.ctp" is missing.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:53:23 Error: [MissingComponentException] Component class FacebookComponent could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('Facebook', Array)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(634): ComponentCollection->init(Object(IndexController))
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(182): Controller->constructClasses()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:53:24 Error: [MissingComponentException] Component class FacebookComponent could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('Facebook', Array)
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Controller/Controller.php(634): ComponentCollection->init(Object(IndexController))
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(182): Controller->constructClasses()
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IndexController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-27 00:53:34 Error: Fatal Error (1): Call to a member function doComplexOperation() on a non-object in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/IndexController.php, line 8]
+2012-12-27 00:53:34 Error: [FatalErrorException] Call to a member function doComplexOperation() on a non-object
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nazimjam...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nazimjam...', 8, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nazimjam...', 8, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:00:05 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'DIRECTORY_SEPERATORapp/Vendor/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:00:05 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'DIRECTORY_SEPERATORapp/Vendor/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:00:15 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:00:15 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:00:38 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:00:38 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:01:15 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:01:15 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:01:46 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:01:46 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:01:48 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:01:48 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:01:49 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:01:49 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:02:29 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:02:29 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:02:31 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:02:31 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:02:32 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:02:32 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:02:53 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:02:53 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:03:06 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:03:06 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:03:07 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:03:07 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:03:11 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'appVendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:03:11 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'appVendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:03:23 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:03:23 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:18 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:04:18 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:19 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:04:19 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:29 Error: Fatal Error (1): Class 'Facebook' not found in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 8]
+2012-12-27 01:04:29 Error: [FatalErrorException] Class 'Facebook' not found
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', '/Users/nazimjam...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', '/Users/nazimjam...', 8, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', '/Users/nazimjam...', 8, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:40 Error: Fatal Error (1): Class 'Facebook' not found in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 8]
+2012-12-27 01:04:40 Error: [FatalErrorException] Class 'Facebook' not found
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', '/Users/nazimjam...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', '/Users/nazimjam...', 8, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', '/Users/nazimjam...', 8, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:55 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:04:55 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:04:57 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:04:57 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:05:18 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:05:18 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:05:40 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/Vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:05:40 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/Vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:06:08 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:06:08 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:06:09 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:06:09 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:06:09 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:06:09 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:06:43 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:06:43 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:06:52 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:06:52 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:08:10 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:08:10 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:09:04 Error: Fatal Error (1): Call to undefined function vendor() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 12]
+2012-12-27 01:09:04 Error: [FatalErrorException] Call to undefined function vendor()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 12, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 12, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:09:29 Error: Fatal Error (1): Call to undefined function vendor() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 13]
+2012-12-27 01:09:29 Error: [FatalErrorException] Call to undefined function vendor()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 13, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 13, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:09:31 Error: Fatal Error (1): Call to undefined function vendor() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 13]
+2012-12-27 01:09:31 Error: [FatalErrorException] Call to undefined function vendor()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 13, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 13, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:11:02 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:11:02 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:11:17 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:11:17 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:12:40 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:12:40 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:14:45 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:14:45 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:14:51 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:14:51 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:15:00 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 6]
+2012-12-27 01:15:00 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 6, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:21:32 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:21:32 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:21:38 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 10]
+2012-12-27 01:21:38 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:21:51 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:21:51 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:21:52 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:21:52 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required '/vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:22:01 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:22:01 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:22:48 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:22:48 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:23:28 Error: Fatal Error (1): Call to undefined method FacebookComponent::init() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/IndexController.php, line 8]
+2012-12-27 01:23:28 Error: [FatalErrorException] Call to undefined method FacebookComponent::init()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 8, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 8, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:23:30 Error: Fatal Error (1): Call to undefined method FacebookComponent::init() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/IndexController.php, line 8]
+2012-12-27 01:23:30 Error: [FatalErrorException] Call to undefined method FacebookComponent::init()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 8, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 8, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:24:48 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:24:48 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:24:50 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:24:50 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'vendors/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:25:25 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:25:25 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:28:23 Error: Fatal Error (1): Class 'Facebook' not found in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 9]
+2012-12-27 01:28:23 Error: [FatalErrorException] Class 'Facebook' not found
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'Facebook...', '/Users/nazimjam...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Facebook...', '/Users/nazimjam...', 9, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Facebook...', '/Users/nazimjam...', 9, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:30:31 Error: Fatal Error (64): require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:') in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 7]
+2012-12-27 01:30:31 Error: [FatalErrorException] require() [http://php.net/function.require]: Failed opening required 'app/Vendor/facebook/facebook.php' (include_path='/Users/nazimjamil/Sites/mexican-wave/lib:.:')
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require() [http...', '/Users/nazimjam...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require() [http...', '/Users/nazimjam...', 7, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:31:14 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 66]
+2012-12-27 01:31:14 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:31:47 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 66]
+2012-12-27 01:31:47 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:34:07 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 66]
+2012-12-27 01:34:07 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:34:39 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 66]
+2012-12-27 01:34:39 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 66, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:35:33 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 67]
+2012-12-27 01:35:33 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 67, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 67, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:36:13 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 67]
+2012-12-27 01:36:13 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 67, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 67, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:40:46 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/Config/database.php, line 92]
+2012-12-27 01:40:46 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 92, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 92, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:46:13 Error: Fatal Error (4): parse error, expecting `','' or `';'' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 28]
+2012-12-27 01:46:13 Error: [FatalErrorException] parse error, expecting `','' or `';''
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 28, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 28, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:47:28 Error: Fatal Error (1): Call to undefined method FacebookComponent::redirect() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 27]
+2012-12-27 01:47:28 Error: [FatalErrorException] Call to undefined method FacebookComponent::redirect()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:50:18 Error: Fatal Error (1): Call to undefined method FacebookComponent::redirect() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 27]
+2012-12-27 01:50:18 Error: [FatalErrorException] Call to undefined method FacebookComponent::redirect()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 01:50:39 Error: Fatal Error (1): Call to undefined function redirect() in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 27]
+2012-12-27 01:50:39 Error: [FatalErrorException] Call to undefined function redirect()
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/nazimjam...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/nazimjam...', 27, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:21:45 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 29]
+2012-12-27 02:21:45 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 29, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 29, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:32:29 Error: Fatal Error (1): Call to a member function getSignedRequest() on a non-object in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 40]
+2012-12-27 02:32:29 Error: [FatalErrorException] Call to a member function getSignedRequest() on a non-object
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nazimjam...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nazimjam...', 40, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nazimjam...', 40, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:33:08 Error: Fatal Error (1): Call to a member function getSignedRequest() on a non-object in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 40]
+2012-12-27 02:33:08 Error: [FatalErrorException] Call to a member function getSignedRequest() on a non-object
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nazimjam...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nazimjam...', 40, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nazimjam...', 40, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:34:41 Error: Fatal Error (1): Call to a member function getSignedRequest() on a non-object in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/Component/FacebookComponent.php, line 18]
+2012-12-27 02:34:41 Error: [FatalErrorException] Call to a member function getSignedRequest() on a non-object
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/nazimjam...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/nazimjam...', 18, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/nazimjam...', 18, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:56:54 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/IndexController.php, line 9]
+2012-12-27 02:56:54 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 9, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 9, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 02:57:37 Error: Fatal Error (4): parse error, expecting `T_FUNCTION' in [/Users/nazimjamil/Sites/mexican-wave/app/Controller/IndexController.php, line 10]
+2012-12-27 02:57:37 Error: [FatalErrorException] parse error, expecting `T_FUNCTION'
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/nazimjam...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/nazimjam...', 10, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/nazimjam...', 10, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 03:10:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:10:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:10:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:38 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-27 03:11:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:11:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:12:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:12:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:12:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:12:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:14:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/nazimjamil/Sites/mexican-wave/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-27 03:21:05 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/View/Layouts/default.ctp, line 18]
+2012-12-27 03:21:05 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 18, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 18, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-27 03:22:45 Error: Fatal Error (4): parse error in [/Users/nazimjamil/Sites/mexican-wave/app/View/Layouts/default.ctp, line 18]
+2012-12-27 03:22:45 Error: [FatalErrorException] parse error
+#0 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'parse error', '/Users/nazimjam...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/nazimjam...', 18, Array)
+#2 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/nazimjam...', 18, Array)
+#3 /Users/nazimjamil/Sites/mexican-wave/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
