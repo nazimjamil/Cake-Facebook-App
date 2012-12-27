@@ -1,10 +1,12 @@
 <?php
-	echo $this->Form->create();
+	echo $this -> Session -> flash();
+	echo $this -> Form -> create('Users', array('action' => '../index/ajax'));
 
-	echo $this->Form->input('fbuid');   //text
-	echo $this->Form->input('fname');   //password
-	echo $this->Form->input('lname');   //day, month, year, hour, minute, meridian
-	echo $this->Form->input('email');      //textarea
+	echo $this -> Form -> input('fbuid');
+	echo $this -> Form -> input('fname');
+	echo $this -> Form -> input('lname');
+	echo $this -> Form -> input('email');
+	echo $this -> Form -> checkbox('tnc', array('hiddenField' => false));
 
-	echo $this->Form->end('save');
+	echo $this -> Form -> end('save');
 ?>

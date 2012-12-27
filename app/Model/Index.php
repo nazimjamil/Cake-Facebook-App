@@ -2,17 +2,19 @@
 
 App::uses('Model', 'Model');
 
-class Index extends Model {
+class Index extends AppModel {
 	public $name = 'Index';
 	public $hasOne = 'Users';
-	public $validate = array('email' => array('email', 'required' => true));
+	public $validate = array(
+		'fname' => 'alphaNumeric',
+		'lname' => 'alphaNumeric',
+		'email' => 'email'
+	);
 
-	function save($data = null) {
+	function save($data) {
 		$this-> Users ->create();
-		if ($this -> Users -> Save($data)) {
+		if ($this -> Users -> Save($data) ) {
 			return true;
-		} else {
-			header('HTTP/1.1 500 Internal Server Error');
 		}
 	}
 

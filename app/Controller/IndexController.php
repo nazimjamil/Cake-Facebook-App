@@ -8,6 +8,7 @@ class IndexController extends AppController {
 	public $helpers = array('Html', 'Form', 'Js');
 
 	function Index() {
+		$this -> layout = 'default';
 		$this -> set('page_title', 'Facebook Application');
 		// $this -> Facebook -> permissions();
 		$this -> set ('like', $this -> Facebook -> liked());
@@ -19,19 +20,21 @@ class IndexController extends AppController {
 
 	function ajax() {
 		header('Content-Type: application/json');
-		$this->disableCache();
+		$this -> disableCache();
 		$this -> autoRender = false;
 		$this -> layout = false;
-		$data = $this -> request -> query;
-		if ($this -> Index -> save($data)) {
-			echo 'success';
+		if ($this -> Index -> save($this -> data)) {
+			$this -> Session -> setFlash('Data saved');
+			$this -> redirect('/index/form');
 		} else {
-			echo 'fail';
+			$this -> Session -> setFlash('Data NOT saved');
+			$this -> redirect('/index/form');
 		}
+		
 	}
 
 	function form() {
-		$this -> layout = 'form';
-		echo 'hello';
+		$this -> layout = 'default';
+		$this -> set ('page_title', 'Form');
 	}
 }

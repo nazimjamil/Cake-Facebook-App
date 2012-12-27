@@ -12,11 +12,7 @@
 </head>
 <body>
 	<?php echo $this -> Session -> flash(); ?>
-	<div class="row">
-		<div class="twelve columns">
-			<h2><?php echo ($like ? 'You like the parent page' : 'You do not like the parent page'); ?></h2>
-		</div>
-	</div>
+	<?php echo $this->fetch('content'); ?>
 	<?php
 	echo $this -> Html -> script(array('jquery-1.8.3.min.js', 'foundation.min.js', 'jquery.foundation.forms.js', 'jquery.foundation.mediaQueryToggle.js', 'modernizr.foundation.js'));
 	?>
