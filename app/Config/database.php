@@ -63,9 +63,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => '127.0.0.1',
-		'login' => getenv('DB_USER'),
-		'password' => getenv('DB_PASS'),
-		'database' => getenv('DB_NAME'),
+		'login' => 'root',
+		'password' => 'root',
+		'database' => 'mexicanwave',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
